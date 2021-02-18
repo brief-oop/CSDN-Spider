@@ -1,0 +1,125 @@
+2021-02-17 18:31:07开始进行博客网址的初始化！
+222
+2021-02-17 18:31:09博客网址的初始化完成！
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2021-02-17 18:31:09更新博客地址后的相关信息如下：
+task1的数量为：15
+https://blog.csdn.net/Brief_/article/details/113784055
+https://blog.csdn.net/Brief_/article/details/113776733
+https://blog.csdn.net/Brief_/article/details/113744492
+https://blog.csdn.net/Brief_/article/details/111405233
+https://blog.csdn.net/Brief_/article/details/109455255
+https://blog.csdn.net/Brief_/article/details/109367772
+https://blog.csdn.net/Brief_/article/details/109313067
+https://blog.csdn.net/Brief_/article/details/109255582
+https://blog.csdn.net/Brief_/article/details/109183618
+https://blog.csdn.net/Brief_/article/details/109159671
+https://blog.csdn.net/Brief_/article/details/109158866
+https://blog.csdn.net/Brief_/article/details/109039019
+https://blog.csdn.net/Brief_/article/details/107762331
+https://blog.csdn.net/Brief_/article/details/107702573
+https://blog.csdn.net/Brief_/article/details/107633747
+task2的数量为：0
+task3的数量为：0
+task4的数量为：0
+共计：15
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2m2021-02-17 18:31:09.980[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m [2m:[0;39m Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1139b2f3: startup date [Wed Feb 17 18:31:06 CST 2021]; root of context hierarchy
+[2m2021-02-17 18:31:10.021[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/download]}" onto public java.lang.String com.spider.controller.Controller.displayDownload()
+[2m2021-02-17 18:31:10.023[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/download/{name}]}" onto public void com.spider.controller.Controller.download(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2m2021-02-17 18:31:10.023[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/addIndexPage/{userID}/{type}]}" onto public void com.spider.controller.Controller.addIndexPage(java.lang.String,java.lang.String)
+[2m2021-02-17 18:31:10.023[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/displayAllBlog]}" onto public java.lang.String com.spider.controller.Controller.displayAllBlog()
+[2m2021-02-17 18:31:10.027[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2m2021-02-17 18:31:10.027[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2m2021-02-17 18:31:10.053[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2m2021-02-17 18:31:10.054[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2m2021-02-17 18:31:10.084[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2m2021-02-17 18:31:10.114[0;39m [33m WARN[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36mion$DefaultTemplateResolverConfiguration[0;39m [2m:[0;39m Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[2m2021-02-17 18:31:10.201[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page: class path resource [static/index.html]
+[2m2021-02-17 18:31:10.290[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Registering beans for JMX exposure on startup
+[2m2021-02-17 18:31:10.302[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.a.ScheduledAnnotationBeanPostProcessor[0;39m [2m:[0;39m No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2m2021-02-17 18:31:10.326[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2021-02-17 18:31:10.329[0;39m [32m INFO[0;39m [35m19004[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.spider.SpringBoot                   [0;39m [2m:[0;39m Started SpringBoot in 4.358 seconds (JVM running for 6.751)
+
+#####################定时任务一开始#############################
+2021-02-17 18:32:00博客(有关HashMap一些问题的个人总结_Brief_的博客-CSDN博客)的访问量为：1909
+2021-02-17 18:32:00博客(关于脏写、脏读、不可重复读、幻读的理解_Brief_的博客-CSDN博客)的访问量为：1768
+2021-02-17 18:32:00博客(解析Java中的部分锁_Brief_的博客-CSDN博客)的访问量为：1786
+2021-02-17 18:32:00博客(java中快速失败机制的“Bug”_Brief_的博客-CSDN博客)的访问量为：1770
+2021-02-17 18:32:01博客(Jvm的类加载机制、jdk1.8中方法区的变动_Brief_的博客-CSDN博客)的访问量为：1761
+2021-02-17 18:32:01博客(HashCode（） 和 equals（）_Brief_的博客-CSDN博客)的访问量为：1763
+2021-02-17 18:32:01博客(从HashMap的遍历谈起_Brief_的博客-CSDN博客)的访问量为：1830
+2021-02-17 18:32:01博客(二分模板_Brief_的博客-CSDN博客_二分模板)的访问量为：1782
+2021-02-17 18:32:01博客(Mysql索引结构_Brief_的博客-CSDN博客)的访问量为：1766
+2021-02-17 18:32:01博客(Java中的各种容器初始值大小以及深入剖析“为什么”_Brief_的博客-CSDN博客)的访问量为：1776
+2021-02-17 18:32:02博客(Redis中的数据结构_Brief_的博客-CSDN博客_redis中的数据结构)的访问量为：1759
+2021-02-17 18:32:02博客(fail-fast 与 fail-safe机制_Brief_的博客-CSDN博客)的访问量为：1803
+2021-02-17 18:32:02博客(关于配置视图解析器prefix路径前是否要加“/“的问题_Brief_的博客-CSDN博客)的访问量为：26407
+2021-02-17 18:32:02博客(解决tomcat部署项目中静态页面（html）显示中文乱码_Brief_的博客-CSDN博客)的访问量为：27320
+2021-02-17 18:32:02博客(解决idea中maven项目无端显示404错误_Brief_的博客-CSDN博客_idea运行maven项目404)的访问量为：26572
+#####################定时任务一结束#############################
+
+
+
+################################################################################
+到2021-02-17 18:33:00为止，一共成功增加访问量：15次，期间产生异常数量为：0
+################################################################################
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2021-02-17 18:34:00更新博客地址前的相关信息如下：
+task1的数量为：15,task2的数量为：0,task3的数量为：0task4的数量为：0,共计：15
+2021-02-17 18:34:00更新博客地址后的相关信息如下：
+task1的数量为：15
+https://blog.csdn.net/Brief_/article/details/113784055
+https://blog.csdn.net/Brief_/article/details/113776733
+https://blog.csdn.net/Brief_/article/details/113744492
+https://blog.csdn.net/Brief_/article/details/111405233
+https://blog.csdn.net/Brief_/article/details/109455255
+https://blog.csdn.net/Brief_/article/details/109367772
+https://blog.csdn.net/Brief_/article/details/109313067
+https://blog.csdn.net/Brief_/article/details/109255582
+https://blog.csdn.net/Brief_/article/details/109183618
+https://blog.csdn.net/Brief_/article/details/109159671
+https://blog.csdn.net/Brief_/article/details/109158866
+https://blog.csdn.net/Brief_/article/details/109039019
+https://blog.csdn.net/Brief_/article/details/107762331
+https://blog.csdn.net/Brief_/article/details/107702573
+https://blog.csdn.net/Brief_/article/details/107633747
+task2的数量为：0
+task3的数量为：0
+task4的数量为：0
+共计：15
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#####################定时任务一开始#############################
+2021-02-17 18:34:00博客(有关HashMap一些问题的个人总结_Brief_的博客-CSDN博客)的访问量为：1910
+2021-02-17 18:34:00博客(关于脏写、脏读、不可重复读、幻读的理解_Brief_的博客-CSDN博客)的访问量为：1769
+2021-02-17 18:34:00博客(解析Java中的部分锁_Brief_的博客-CSDN博客)的访问量为：1787
+2021-02-17 18:34:00博客(java中快速失败机制的“Bug”_Brief_的博客-CSDN博客)的访问量为：1771
+2021-02-17 18:34:01博客(Jvm的类加载机制、jdk1.8中方法区的变动_Brief_的博客-CSDN博客)的访问量为：1762
+2021-02-17 18:34:01博客(HashCode（） 和 equals（）_Brief_的博客-CSDN博客)的访问量为：1764
+2021-02-17 18:34:01博客(从HashMap的遍历谈起_Brief_的博客-CSDN博客)的访问量为：1831
+2021-02-17 18:34:01博客(二分模板_Brief_的博客-CSDN博客_二分模板)的访问量为：1783
+2021-02-17 18:34:01博客(Mysql索引结构_Brief_的博客-CSDN博客)的访问量为：1767
+2021-02-17 18:34:01博客(Java中的各种容器初始值大小以及深入剖析“为什么”_Brief_的博客-CSDN博客)的访问量为：1777
+2021-02-17 18:34:01博客(Redis中的数据结构_Brief_的博客-CSDN博客_redis中的数据结构)的访问量为：1760
+2021-02-17 18:34:02博客(fail-fast 与 fail-safe机制_Brief_的博客-CSDN博客)的访问量为：1804
+2021-02-17 18:34:02博客(关于配置视图解析器prefix路径前是否要加“/“的问题_Brief_的博客-CSDN博客)的访问量为：26408
+2021-02-17 18:34:02博客(解决tomcat部署项目中静态页面（html）显示中文乱码_Brief_的博客-CSDN博客)的访问量为：27321
+2021-02-17 18:34:02博客(解决idea中maven项目无端显示404错误_Brief_的博客-CSDN博客_idea运行maven项目404)的访问量为：26573
+#####################定时任务一结束#############################
+
+
+#####################定时任务一开始#############################
+2021-02-17 18:36:00博客(有关HashMap一些问题的个人总结_Brief_的博客-CSDN博客)的访问量为：1911
+2021-02-17 18:36:00博客(关于脏写、脏读、不可重复读、幻读的理解_Brief_的博客-CSDN博客)的访问量为：1770
+2021-02-17 18:36:00博客(解析Java中的部分锁_Brief_的博客-CSDN博客)的访问量为：1788
+2021-02-17 18:36:01博客(java中快速失败机制的“Bug”_Brief_的博客-CSDN博客)的访问量为：1772
+2021-02-17 18:36:01博客(Jvm的类加载机制、jdk1.8中方法区的变动_Brief_的博客-CSDN博客)的访问量为：1763
+2021-02-17 18:36:01博客(HashCode（） 和 equals（）_Brief_的博客-CSDN博客)的访问量为：1765
+2021-02-17 18:36:01博客(从HashMap的遍历谈起_Brief_的博客-CSDN博客)的访问量为：1832
